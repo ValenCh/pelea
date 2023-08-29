@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+
+    background: rgb(113,19,19);
+    background: linear-gradient(270deg, rgba(113,19,19,0.9304096638655462) 30%, rgba(37, 36, 121, 0.979) 60%);
+    overflow-y: hidden;
+
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 150%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#cuenta{
+    margin: 20%;
+    margin-top: 5%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.simply-section{
+    background-color: rgba(199, 199, 199, 0.486);
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.simply-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vh;
+}
+
+.simply-word{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vh;
+}
